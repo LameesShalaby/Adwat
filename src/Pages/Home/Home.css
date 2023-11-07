@@ -1,0 +1,357 @@
+ .home-banner {
+   background: url('../../assets/images/hero.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 92vh;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   font-family: 'El Messiri';
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%;
+   text-transform: uppercase;
+   color: #fff;
+   width: 100%;
+ }
+
+ .home-banner::after {
+   content: '';
+   position: absolute;
+   bottom: 30px;
+   left: 0;
+   width: 100%;
+   height: 123px;
+   background: url('../../assets/images/Intersect.png');
+   /* background-size: contain; */
+   background-repeat: no-repeat;
+   background-position-x: center;
+ }
+
+ .home-banner h1 {
+   width: 90%;
+ }
+
+ .home-banner .color-change {
+   color: #7BB981;
+   /* transition: 2s; */
+   animation: text-animation 8s infinite;
+
+ }
+
+ .fadeDownText {
+   color: #7BB981;
+ }
+
+ .clock {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -30px;
+ }
+
+ .clock::before {
+   content: '';
+   background-image: url('../../assets/images/arrow.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   width: 80px;
+   height: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   top: 40%;
+ }
+
+ .home .img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -1.5em;
+ }
+
+ .home .img img {
+   width: 150px;
+   height: 150px;
+ }
+
+ @media (prefers-reduced-motion: no-preference) {
+   .home .img {
+     animation: App-clock-spin infinite 20s linear;
+   }
+ }
+
+ .buttons {
+   display: flex;
+ }
+
+ .heading-style {
+   padding-top: 100px;
+   padding-bottom: 120px;
+   background-color: #E9ECF8;
+ }
+
+ .heading-style .row {
+   justify-content: center;
+   align-items: center;
+ }
+
+ .heading-style h1 {
+   color: #100F2F;
+   text-align: center;
+ }
+
+ .heading-style p {
+   font-size: 20px;
+ }
+
+ .filter .btn-style-1 {
+   color: #412B95;
+ }
+
+ .filter .btn-style-1:hover {
+   color: #FFF;
+ }
+
+ .partnership {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 120px;
+   padding-bottom: 120px;
+ }
+
+ .partnership .row {
+   align-items: center;
+ }
+
+ .partnership p {
+   text-align: left;
+   width: 76%;
+ }
+
+ .contact {
+   background-color: #fff;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ .reviews {
+   position: relative;
+ }
+
+ .reviews::before {
+   background-image: url('../../assets/images/dotted.png');
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 17rem;
+   width: 100% !important;
+   height: 100%;
+   background-size: 100% 100%;
+ }
+
+ .reviews .btn-style-2 {
+   width: 40%;
+ }
+
+ .newsletter {
+   position: relative;
+   margin-bottom: -3px;
+ }
+
+ .newsletter .bg-img {
+   background: url('../../assets/images/newsletter.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 57vh;
+   border-radius: 46px;
+   display: flex;
+   width: 1460px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: -18em;
+   position: relative;
+   z-index: 1;
+ }
+
+ .newsletter h2 {
+   color: #FFF;
+   text-align: center;
+   font-family: 'El Messiri';
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 100%;
+ }
+
+ .newsletter p {
+   color: #FFF;
+   text-align: center;
+   font-family: 'Poppins';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 140%;
+ }
+
+ .newsletter .form-container {
+   padding-top: 36px;
+ }
+
+ .newsletter-email-style {
+   display: flex;
+   padding-left: 20px;
+   justify-content: space-between;
+   align-items: center;
+   align-self: stretch;
+   border-radius: 71.233px;
+   background: #FFF;
+   height: 42px;
+   width: 500px;
+ }
+
+ .newsletter-btn-style {
+   display: flex;
+   padding: 10px 56px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 100px;
+   background: #412B95;
+   border: none;
+   margin-left: -60px;
+ }
+
+ .newsletter-btn-style:hover {
+   background: #412B95;
+ }
+
+ @keyframes App-clock-spin {
+   from {
+     transform: rotate(0deg);
+   }
+
+   to {
+     transform: rotate(180deg);
+   }
+ }
+
+ @media only screen and (min-width: 1200px) {
+   .contact::before {
+     content: '';
+     background: url('../../assets/images/before.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     position: absolute;
+     left: 0%;
+     top: 0;
+     width: 411px;
+     height: 822px;
+     z-index: 0;
+   }
+
+   .contact::after {
+     content: '';
+     background: url('../../assets/images/after.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     position: absolute;
+     right: 0;
+     top: 25%;
+     width: 411px;
+     height: 822px;
+     z-index: 1;
+   }
+ }
+
+ @media (max-width:660px) {
+   h1 {
+     font-size: 30px;
+     line-height: 110%;
+   }
+
+   .home-banner::after {
+     bottom: 300px;
+   }
+
+   .reviews .btn-style-2 {
+     width: 75%;
+   }
+
+   .home-banner {
+     height: 60vh;
+   }
+
+   .home .img img {
+     width: 100px;
+     height: 100px;
+   }
+
+   .heading-style,
+   .partnership {
+     padding-top: 60px;
+     padding-bottom: 60px;
+   }
+
+   .partnership p {
+     width: 100%;
+   }
+
+   .heading-style .btn-style-2,
+   .heading-style .btn-style-1 {
+     /* width: 74%; */
+     margin-bottom: 3em;
+   }
+
+   .swiper-pagination {
+     margin-top: 2em;
+   }
+
+   .contact::after,
+   .contact::before {
+     display: none;
+   }
+
+   .newsletter {
+     padding: 12px;
+     background-color: #fff !important;
+   }
+
+   .newsletter .bg-img {
+     height: 32vh;
+     border-radius: 36px;
+   }
+
+   .newsletter h2 {
+     font-size: 25px;
+   }
+
+   .newsletter p {
+     font-size: 16px;
+   }
+
+   .newsletter .form-container {
+     padding-top: 12px;
+   }
+
+   .newsletter .newsletter-email-style {
+     width: 250px;
+   }
+
+   .newsletter .form-container .col {
+     width: 50%;
+   }
+
+   .newsletter-btn-style {
+     margin-left: 0;
+   }
+ }

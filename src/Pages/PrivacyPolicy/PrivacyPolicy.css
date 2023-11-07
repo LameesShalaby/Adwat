@@ -1,0 +1,78 @@
+.privacy-policy {
+    padding-top: 200px;
+    padding-bottom: 120px;
+}
+
+.privacy-policy h1 {
+    text-align: center;
+    padding-bottom: 46px;
+}
+
+.left-arrow {
+    display: flex;
+    width: 46px;
+    height: 46px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #412B95;
+}
+
+.left-arrow svg {
+    color: #fff;
+}
+
+.policy-card {
+    display: flex;
+    /* width: 800px; */
+    padding: 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+    border-radius: 24px;
+    background: #F0F2FA;
+}
+
+.policy-card h4 {
+    color: #1D2C47;
+    font-family: 'El Messiri';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.policy-card ul {
+    padding-left: 0.5rem;
+}
+
+.policy-card p,
+.policy-card li {
+    color: #9898B6;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158%;
+    text-align: left;
+}
+
+.policy-card .color-change {
+    color: #412B95;
+    font-weight: 500;
+}
+
+@media (max-width:660px) {
+    .privacy-policy {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    .policy-card {
+        width: auto;
+        gap: 12px;
+    }
+
+}

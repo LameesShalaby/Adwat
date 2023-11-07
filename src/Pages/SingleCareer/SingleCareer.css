@@ -1,0 +1,70 @@
+.single-career {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.single-career h1 {
+    text-align: center;
+}
+
+.single-career .color-dark {
+    color: #100F2F;
+}
+
+.single-career h6 {
+    color: #100F2F;
+    text-align: left;
+    font-family: 'El Messiri';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.single-career p,
+.single-career li {
+    color: #9898B6;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.single-career .job-details-card,
+.single-career .job-desc-card,
+.single-career .job-Key-card,
+.single-career .job-require-card {
+    display: flex;
+    max-width: 1000px;
+    padding: 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 24px; */
+    align-self: stretch;
+    border-radius: 12px;
+    background: #F0F2FA;
+    margin-bottom: 12px;
+}
+
+.single-career .job-details-card p {
+    text-align: left;
+}
+
+.single-career .text-center {
+    text-align: center;
+}
+
+.single-career ul {
+    padding-left: .5rem;
+}
+
+.single-career li {
+    list-style: disc;
+}
+
+.single-career hr {
+    border: 1px solid #D9D5EA;
+    width: 100%;
+}

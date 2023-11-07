@@ -1,0 +1,46 @@
+.careerSwiper .swiper-slide{
+    background: transparent;
+}
+.careerSwiper .card-career-style p{
+    text-align: left;
+}
+.careerSwiper .img-card-career-style{
+    width: 310px;
+    height: 400px;
+    border-radius: 12px;
+}
+.careerSwiper .img-card-career-style img{
+    width: 100%;
+    border-radius: 12px;
+}
+.careerSwiper .card-career-style p{
+    color: #100F2F;
+    font-family: 'El Messiri';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 16px 10px;
+
+}
+.careerSwiper .card-career-style span{
+    color:  #9898B6;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147%;
+}
+.careerSwiper .swiper-pagination{
+    margin-top: 2em;
+}
+.careerSwiper .swiper-pagination-bullet{
+    width: 6px;
+    height: 6px;
+    padding: 5px;
+}
+.careerSwiper .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #412B95;
+    border-radius: 55px;
+  }

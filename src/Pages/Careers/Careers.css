@@ -1,0 +1,46 @@
+.career .heading-style{
+    padding-top: 120px;
+    padding-bottom: 26px;
+}
+.jobs-cards{
+  padding-bottom: 120px;  
+}
+.job-card{
+    display: flex;
+    padding: 24px 36px;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 12px;
+    background:  #F0F2FA;
+    margin-bottom: 24px;
+}
+.job-card h5{
+    color:  #100F2F;
+    text-align: left;
+    font-family: 'El Messiri';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+.job-card .color-dark{
+    color: #100F2F;
+}
+.job-card .img-logo{
+    float: right;
+}
+.job-card p{
+    color: #9898B6;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147%; 
+    text-align: left;
+}
+.job-card .btn-style-1{
+    color: #100F2F;
+}
+.job-card .btn-style-1:hover{
+    color: #fff;
+}

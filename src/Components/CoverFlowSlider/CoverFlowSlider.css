@@ -1,0 +1,62 @@
+    .mySwiper2 .swiper{
+        overflow: visible !important;
+    }
+    .mySwiper2 .swiper-slide img {
+        width: auto;
+        height: auto;
+    }
+    .mySwiper2 .swiper-pagination-bullet{
+        width: 6px;
+        height: 6px;
+        padding: 3px;
+    }
+    .mySwiper2 .swiper-slide{
+        background: transparent;
+    }
+    .mySwiper2 .card-flow-style{
+        display: flex;
+        width: 339px;
+        height: 363px;
+        padding: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-shrink: 0;
+        border-radius: 36px;
+        background: #FFF;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+    .mySwiper2 .card-flow-style p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .mySwiper2 .card-flow-style h4 {
+        color: #412B95;
+        text-align: center;
+        font-family: 'El Messiri';
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; 
+        margin-bottom: 0;
+    }
+    .mySwiper2 .img-card-flow-style{
+        display: flex;
+        padding: 1px;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-slide-shadow-bottom{
+        position: relative;
+    }
+    .mySwiper2 .swiper-3d{
+        perspective: 1000px;
+
+    }
+    @media (max-width:660px){
+        .mySwiper2 .card-flow-style{
+            width: 100%;
+        }
+    }

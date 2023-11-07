@@ -1,0 +1,148 @@
+.position {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    /* height: 13%; */
+    transition: all .5s ease 0s;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .row-padding {
+    padding: 12px 0;
+}
+.navbar>.container {
+    display: block;
+}
+.navbar.active {
+    background: #100F2F;
+    transition: all 0.5s ease;
+    width: 100%;
+    display: flex !important;
+    padding: 0;
+}
+.header .frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .frame p {
+    color: #100F2F;
+    font-family: 'El Messiri';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.header .header-menu {
+    background: #fff;
+    border: none;
+    display: flex;
+    padding: 0 0 0 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 71.233px;
+}
+.header .header-menu .icon-bar,
+.offcanvas-header .btn-close {
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 7.123px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.123px;
+    flex-shrink: 0;
+    border-radius: 71.233px;
+    background: #8D80BF;
+    border: none;
+}
+.nav {
+    display: block;
+}
+.nav-link {
+    color: #FFF;
+    text-align: center;
+    font-family: El Messiri;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #7BB981;
+}
+.offcanvas.offcanvas-start {
+    width: 100%;
+    text-align: center;
+}
+.offcanvas-header {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 46px;
+}
+.offcanvas-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-form {
+    display: flex;
+    justify-content: end;
+}
+.header-search-style,
+.header-form .form-control {
+    display: flex;
+    width: 272px;
+    padding-left: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 71.233px;
+    background-color: #FFF !important;
+    border: none;
+    height: 47px;
+}
+.header-form .form-control:focus {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+.header-form .header-submit-btn {
+    background: #8D80BF;
+    border: none;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    padding: 7.123px;
+    margin-left: -46px;
+}
+.header-form .header-submit-btn:hover {
+    background: #8D80BF;
+}
+
+.offcanvas-header .btn-close {
+    font-size: 22px;
+}
+.btn-close {
+    content: '/FaRegWindowClose';
+}
+@media (max-width:660px) {
+    .header-form {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 46px;
+    }
+
+    .header .col-sm-6 {
+        width: 50%;
+    }
+}

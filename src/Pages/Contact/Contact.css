@@ -1,0 +1,40 @@
+.contact-us .heading-style{
+    padding-top: 120px;
+}
+.contact-us .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-us .btn-style-1{
+    color: #100F2F;
+}
+.contact-us .btn-style-1:hover{
+    color: #fff;
+}
+.contact-us .info{
+    padding: 120px 0;
+}
+.contact-us .info p{
+    text-align: left;
+}
+.contact-us .info h5{
+    color:  #100F2F;
+    font-family: 'El Messiri';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    margin-bottom: 16px;
+}
+.contact-us .info a{
+    color: #9898B6;
+    text-decoration: none;
+}
+@media (max-width:660px){
+    .contact-us .buttons .btn-style-1{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+}

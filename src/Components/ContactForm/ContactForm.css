@@ -1,0 +1,27 @@
+    .contact-form .form-control,
+    .contact-form .form-select{
+        background-color: #F0F2FA;
+    } 
+    .contact-form input, optgroup, select{
+        height: 56px;
+    }
+    .contact-form .form-lable{
+    color: #100F2F;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
+    .contact-form .form-control::placeholder,
+    .contact-form .form-select{
+        color:#A7A7A7;
+    }
+    @media (max-width:660px){
+        .contact-form{
+            padding-top: 30px;
+        }
+        .contact-form input, optgroup, select{
+            height: 40px;
+        }
+    }
