@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Adwat/static/css/main.69fd7ea1.css",
+    "main.css": "/Adwat/static/css/main.1a2569ee.css",
     "main.js": "/Adwat/static/js/main.3cd9e7dc.js",
     "static/js/787.9841ae5d.chunk.js": "/Adwat/static/js/787.9841ae5d.chunk.js",
     "static/media/hero.png": "/Adwat/static/media/hero.ca3aa553efd16410e015.png",
@@ -60,12 +60,12 @@
     "static/media/YouTube.svg": "/Adwat/static/media/YouTube.48174472284c99884f4dbcf412d48699.svg",
     "index.html": "/Adwat/index.html",
     "static/media/Facebook.svg": "/Adwat/static/media/Facebook.1ebdac7476640b7bb79f9d48e0aa5215.svg",
-    "main.69fd7ea1.css.map": "/Adwat/static/css/main.69fd7ea1.css.map",
+    "main.1a2569ee.css.map": "/Adwat/static/css/main.1a2569ee.css.map",
     "main.3cd9e7dc.js.map": "/Adwat/static/js/main.3cd9e7dc.js.map",
     "787.9841ae5d.chunk.js.map": "/Adwat/static/js/787.9841ae5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69fd7ea1.css",
+    "static/css/main.1a2569ee.css",
     "static/js/main.3cd9e7dc.js"
   ]
 }
