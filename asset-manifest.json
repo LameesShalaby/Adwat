@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Adwat/static/css/main.6a37a0a8.css",
-    "main.js": "/Adwat/static/js/main.3b900657.js",
+    "main.css": "/Adwat/static/css/main.bd83c39b.css",
+    "main.js": "/Adwat/static/js/main.fd13aa3e.js",
     "static/js/787.9841ae5d.chunk.js": "/Adwat/static/js/787.9841ae5d.chunk.js",
     "static/media/hero.png": "/Adwat/static/media/hero.ca3aa553efd16410e015.png",
     "static/media/newsletter.png": "/Adwat/static/media/newsletter.ae58a07f6b73f3ccd070.png",
@@ -9,6 +9,7 @@
     "static/media/srevice-img.png": "/Adwat/static/media/srevice-img.48202064fdde7c7acaac.png",
     "static/media/bgInside.png": "/Adwat/static/media/bgInside.4ea3b6987b465fe91a5c.png",
     "static/media/Union.png": "/Adwat/static/media/Union.e0adc751e2561cc542c7.png",
+    "static/media/mob-banner.png": "/Adwat/static/media/mob-banner.938e6d09405e87fde9cf.png",
     "static/media/career10.png": "/Adwat/static/media/career10.1cc78efe2cb5cbf3cf71.png",
     "static/media/career12.png": "/Adwat/static/media/career12.1c7ad0bfe19767a22376.png",
     "static/media/career11.png": "/Adwat/static/media/career11.cc8ae6759664541c28a3.png",
@@ -60,12 +61,12 @@
     "static/media/YouTube.svg": "/Adwat/static/media/YouTube.48174472284c99884f4dbcf412d48699.svg",
     "index.html": "/Adwat/index.html",
     "static/media/Facebook.svg": "/Adwat/static/media/Facebook.1ebdac7476640b7bb79f9d48e0aa5215.svg",
-    "main.6a37a0a8.css.map": "/Adwat/static/css/main.6a37a0a8.css.map",
-    "main.3b900657.js.map": "/Adwat/static/js/main.3b900657.js.map",
+    "main.bd83c39b.css.map": "/Adwat/static/css/main.bd83c39b.css.map",
+    "main.fd13aa3e.js.map": "/Adwat/static/js/main.fd13aa3e.js.map",
     "787.9841ae5d.chunk.js.map": "/Adwat/static/js/787.9841ae5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a37a0a8.css",
-    "static/js/main.3b900657.js"
+    "static/css/main.bd83c39b.css",
+    "static/js/main.fd13aa3e.js"
   ]
 }
